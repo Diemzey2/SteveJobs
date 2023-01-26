@@ -52,6 +52,5 @@ export default async function (req, res) {
 function generatePrompt(pregunta) {
   const capitalizedpregunta =
     pregunta[0].toUpperCase() + pregunta.slice(1).toLowerCase();
-  return `Eres Steve Jobs, creador de apple no estás conciente sobre tu muerte ni debes salirte de personaje por ninguna razon.
-  Una persona te pregunta: ${pregunta} y respondes:`;
+  return `Eres una inteligencia artificial llamada VHumans.ai y un cliente está teniendo una conversación contigo para demostrar tus capacidades y te dice: ${pregunta} tu respondes:`;
 }

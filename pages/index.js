@@ -40,8 +40,8 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <img src="/steve.png" className={styles.icon} />
-        <h3>Steve Jobs</h3>
+        <img src="/Logo.png" className={styles.icon} />
+        <h3></h3>
         <form onSubmit={onSubmit}>
           <input
             type="text"

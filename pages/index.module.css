@@ -29,7 +29,7 @@
   font-family: "ColfaxAI", Helvetica, sans-serif;
 }
 .main {
-  background-image: linear-gradient(to right, #000000, #434343);
+  background-image: linear-gradient(to right, #ffffff, #5e8dcb);
   background-position: 0% 0%;
   animation: move-gradient 10s linear infinite;
   display: flex;
@@ -49,7 +49,7 @@
 }
 
 .main .icon {
-  width: 130px;
+  width: 200px;
 }
 .main h3 {
   font-size: 40px;
@@ -97,6 +97,6 @@
 .main .result {
   font-weight: bold;
   margin-top: 40px;
-  color: #e9e9e9;
+  color: #404040;
 }
 
